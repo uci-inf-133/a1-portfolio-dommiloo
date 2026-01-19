@@ -1,4 +1,4 @@
-/* ========== Base / Reset ========== */
+
 *,
 *::before,
 *::after {
@@ -31,7 +31,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ========== Utilities ========== */
+
 .container {
   width: min(1100px, 92%);
   margin-inline: auto;
@@ -58,12 +58,12 @@ a:hover {
   z-index: 9999;
 }
 
-/* ========== Header ========== */
+
 .site-header {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(246, 247, 251, 0.85);
+  background: rgba(108, 230, 255, 0.85);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(17, 24, 39, 0.08);
 }
@@ -80,5 +80,26 @@ a:hover {
   font-size: 1.25rem;
   margin: 0;
   letter-spacing: -0.02em;
-  
+}
+
+.tagline {
+  margin: 2px 0 0;
+  font-size: 0.95rem;
+  color: #4b5563;
+
+}
+
+.nav{ 
+  list-style:none;
+  display: flex;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.nav a:hover{
+  background: rgba(17, 24, 39, 0.06);
+  text-decoration: none;
 }
