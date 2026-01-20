@@ -60,6 +60,7 @@ countless
 
 used html geeksforgeeks quite often to refer to the countless syntax i would always forget: https://www.geeksforgeeks.org/html/html-tutorial/
 
+looked up how to check accesibility, ai response navigated me thorugh it via inspect page, and vscode live server
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
