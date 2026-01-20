@@ -255,6 +255,16 @@ margin: 0;
 padding-left: 18px;
 color: #374151;
 }
+.card {
+  transition: transform 160ms ease,
+              box-shadow 160ms ease,
+              border-color 160ms ease;
+}
+.card:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 18px 42px  rgba(108, 230, 255, 0.85);
+  border-color:  rgba(3, 25, 29, 0.363);
+}
 
 .btn{
 display: inline-flex;
