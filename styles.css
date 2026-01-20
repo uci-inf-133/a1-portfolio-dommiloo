@@ -130,3 +130,35 @@ letter-spacing: -0.03em;
   gap: 12px;
   flex-wrap: wrap;
 }
+
+.card,
+.project-card {
+  background: white;
+  border: 1px solid rgba(17,24,39, 0.08);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(4, 80, 245, 0.849);
+}
+
+.card{
+  padding: 18px;
+  margin: 18px 0;
+
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+#projects{
+  margin-top: 18px;
+}
+
+#projects {
+  margin: 22px 0 12px;
+}
+
+.grid  {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  gap: 14px;
+}
