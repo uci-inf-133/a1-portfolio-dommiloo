@@ -332,7 +332,7 @@ textarea:focus,
 
 input:invalid,
 textarea:invalid {
-  border-color: rgba(239, 68, 68, 0.6);
+  border-color: rgba(108, 230, 255, 0.85);
 }
 
 
